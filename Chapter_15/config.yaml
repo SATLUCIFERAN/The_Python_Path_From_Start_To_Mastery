@@ -1,0 +1,15 @@
+
+# config.yaml
+# Droid Mission Briefing
+
+mission:
+  # Days of data to analyze if CLI doesn't override
+  since: 30
+  # Where to write the report
+  out: reports/monthly_report.csv
+
+data_source:
+  # Use the real API, not a Google search wrapper
+  url: https://api.galaxy-data-corp.com/v2
+  # Keep secrets in .env, not here; this is just a placeholder key name
+  api_key_env: API_KEY

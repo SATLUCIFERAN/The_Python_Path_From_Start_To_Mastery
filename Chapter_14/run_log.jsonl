@@ -1,0 +1,19 @@
+{"timestamp": "2025-09-04T01:19:18.819982", "status": "SUCCESS", 
+ "message": "Mission succeeded.", "metadata": 
+ {"since": 7, "out": "reports\\report.csv", "dry_run": true, "keep": 3}}
+
+{"timestamp": "2025-09-04T01:43:45.712320", "status": "SUCCESS", "message": "Mission succeeded.", "metadata": {"since": 30, "out": "reports\\report_A.csv", "dry_run": false, "keep": 3}}
+{"timestamp": "2025-09-04T01:44:52.864523", "status": "SUCCESS", "message": "Mission succeeded.", "metadata": {"since": 30, "out": "reports\\report_B.csv", "dry_run": false, "keep": 3}}
+{"timestamp": "2025-09-04T01:45:07.451832", "status": "SUCCESS", "message": "Mission succeeded.", "metadata": {"since": 30, "out": "reports\\report_C.csv", "dry_run": false, "keep": 3}}
+{"timestamp": "2025-09-04T01:45:29.072365", "status": "SUCCESS", "message": "Mission succeeded.", "metadata": {"since": 30, "out": "reports\\report.csv", "dry_run": false, "keep": 3}}
+{"timestamp": "2025-09-04T02:02:44.521666", "status": "FAILURE", "message": "Mission failed.", "metadata": {"since": 7, "out": "my_file.txt\\report.csv", "dry_run": false, "keep": 3}}
+
+
+{"timestamp": "2025-09-04T16:41:07.457780", "status": "FAILURE", "message": "Mission aborted: Lock file already exists.", "metadata": {"since": 7, "out": "reports\\locktest.csv", "dry_run": false, "keep": 3, "lock": ".lock"}}
+{"timestamp": "2025-09-04T16:41:42.065721", "status": "FAILURE", "message": "Mission aborted: Lock file already exists.", "metadata": {"since": 7, "out": "reports\\locktest.csv", "dry_run": false, "keep": 3, "lock": ".lock"}}
+
+
+{"timestamp": "2025-09-04T16:42:09.003295", "status": "FAILURE", 
+"message": "Mission aborted: Lock file already exists.", 
+"metadata": {"since": 7, "out": "reports\\locktest2.csv", 
+"dry_run": false, "keep": 3, "lock": ".lock"}}
